@@ -69,6 +69,7 @@ alias ls="eza --icons=always --group-directories-first"
 alias ll="eza -lah --icons=always --group-directories-first --git"
 alias tree="eza --tree --icons=always"
 alias vim="nvim"
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts" # to prevent .wget-hsts from appearing in $HOME
 
 # Suffix Aliases
 alias -s md="glow"
