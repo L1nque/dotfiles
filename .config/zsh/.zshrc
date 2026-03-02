@@ -89,3 +89,7 @@ copy-command() {
 }
 zle -N copy-command
 bindkey '^[[99;6u' copy-command
+
+
+# exports
+export GPG_TTY=$(tty)
