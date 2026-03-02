@@ -34,7 +34,7 @@ stow .
 
 ```
 
-> If you already have existing config files, use `stow --adopt .` to link them. **Warning:** This may overwrite repository files with your local versions, so check `git diff` afterward!
+> If you already have existing config files, use `stow --adopt .` to link them. <br />**Warning:** This may overwrite repository files with your local versions, so check `git diff` afterward!
 
 ---
 
@@ -68,3 +68,4 @@ The following is a list of additional tools to streamline development and make '
 | fd | a better `find` | `sudo pacman -S fd` |
 | pass | password store | `sudo pacman -S pass`
 | btop | resource monitor | `sudo pacman -S btop` |
+| jless | json cli json viewer | `sudo pacman -S jless` |
